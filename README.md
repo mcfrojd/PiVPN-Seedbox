@@ -4,4 +4,4 @@
 
 2. Följ guiden [Raspberry Pi Seedbox (w/ Transmission WebUI) | Linux Tutorial](https://www.youtube.com/watch?v=flhGmgbAqZA&t=346s) för att sätta upp Transmission
 
-3. Följ giiden XX för att öppna en port på VPN anslutnigen och rapportera denna till transmission.
+3. Följ guiden [XX](https://#) för att öppna en port på VPN anslutnigen och rapportera denna till transmission.
