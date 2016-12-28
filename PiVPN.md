@@ -100,12 +100,16 @@ Copy the PIA OpenVPN certificates and profile to the OpenVPN client:
 
 ~~~
 sudo cp openvpn/ca.rsa.2048.crt openvpn/crl.rsa.2048.pem /etc/openvpn/
-sudo cp openvpn/Japan.ovpn /etc/openvpn/Japan.conf
+sudo cp openvpn/Sweden.ovpn /etc/openvpn/Sweden.conf
 ~~~
 
 You can use a diffrent VPN endpoint if you like. Note the extension change from **ovpn** to **conf**.
 
 Create `/etc/openvpn/login` containing only your username and password, one per line, for example:
+
+~~~
+sudo nano /etc/openvpn/login
+~~~
 
 ~~~
 user12345678
@@ -121,7 +125,7 @@ sudo chmod 600 /etc/openvpn/login
 Setup OpenVPN to use your stored username and password by editing the the config file for the VPN endpoint:
 
 ~~~
-sudo nano /etc/openvpn/Japan.conf
+sudo nano /etc/openvpn/Sweden.conf
 ~~~
 
 Change the following lines so they go from this:
@@ -145,13 +149,13 @@ crl-verify /etc/openvpn/crl.rsa.2048.pem
 At this point you should be able to test the VPN actually works:
 
 ~~~
-sudo openvpn --config /etc/openvpn/Japan.conf
+sudo openvpn --config /etc/openvpn/Sweden.conf
 ~~~
 
 If all is well, you'll see something like:
 
 ~~~
-$ sudo openvpn --config /etc/openvpn/Japan.conf 
+$ sudo openvpn --config /etc/openvpn/Sweden.conf 
 Sat Oct 24 12:10:54 2015 OpenVPN 2.3.4 arm-unknown-linux-gnueabihf [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Dec  5 2014
 Sat Oct 24 12:10:54 2015 library versions: OpenSSL 1.0.1k 8 Jan 2015, LZO 2.08
 Sat Oct 24 12:10:54 2015 UDPv4 link local: [undef]
@@ -170,7 +174,7 @@ Exit this with **Ctrl+c**
 ## Enable VPN at boot
 
 ~~~
-sudo systemctl enable openvpn@Japan
+sudo systemctl enable openvpn@Sweden
 ~~~
 
 ## Setup Routing and NAT
@@ -237,8 +241,8 @@ If you find traffic on your other systems stops, then look on the Pi to see if t
 You can check the status and logs of the VPN client with:
 
 ~~~
-sudo systemctl status openvpn@Japan
-sudo journalctl -u openvpn@Japan
+sudo systemctl status openvpn@Sweden
+sudo journalctl -u openvpn@Sweden
 ~~~
 
 ## Configure Other Systems on the LAN
