@@ -1,11 +1,14 @@
 Skapa filen
-
+~~~
 sudo -i
-
+~~~
+~~~
 nano port_forward.sh
+~~~
 
 Klistra in detta
 
+~~~
 #!/bin/sh
 #
 #
@@ -212,3 +215,4 @@ print_vpn_information
 /usr/bin/transmission-remote -p $port
 service transmission-daemon restart
 exit 0
+~~~
