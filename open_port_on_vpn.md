@@ -217,3 +217,18 @@ print_vpn_information
 service transmission-daemon restart
 exit 0
 ~~~
+
+Lägg till automatisk körning en gång i timmen
+Se till att fortfarande vara root med sudo -i
+~~~
+crontab -e
+~~~
+~~~
+*/59 * * * * /root/port_forward.sh --file /etc/openvpn/login >> /root/vpn_port.log
+~~~
+Gå ur root läget med 'exit'
+
+Kör
+~~~
+sudo update-rc.d transmission-daemon-reload defaults
+~~~
