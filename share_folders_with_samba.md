@@ -1,4 +1,4 @@
-#Install SAMBA#
+#Step 3 - Install SAMBA#
 
 ** We are going to install SAMBA to be able to access the Raspberry Pi's mounted drive**
 ~~~
