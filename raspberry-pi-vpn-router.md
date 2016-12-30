@@ -21,6 +21,8 @@ Copy the PIA OpenVPN certificates and profile to the OpenVPN client:
 
 ~~~
 sudo cp openvpn/ca.rsa.2048.crt openvpn/crl.rsa.2048.pem /etc/openvpn/
+~~~
+~~~
 sudo cp openvpn/Sweden.ovpn /etc/openvpn/Sweden.conf
 ~~~
 
@@ -104,6 +106,8 @@ Enable IP Forwarding:
 
 ~~~
 echo -e '\n#Enable IP Routing\nnet.ipv4.ip_forward = 1' | sudo tee -a /etc/sysctl.conf
+~~~
+~~~
 sudo sysctl -p
 ~~~
 
@@ -111,7 +115,11 @@ Setup NAT fron the local LAN down the VPN tunnel:
 
 ~~~
 sudo iptables -t nat -A POSTROUTING -o tun0 -j MASQUERADE
+~~~
+~~~
 sudo iptables -A FORWARD -i tun0 -o eth0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+~~~
+~~~
 sudo iptables -A FORWARD -i eth0 -o tun0 -j ACCEPT
 ~~~
 
@@ -141,13 +149,29 @@ This means if the VPN goes down, your traffic will just stop working, rather tha
 
 ~~~
 sudo iptables -A OUTPUT -o tun0 -m comment --comment "vpn" -j ACCEPT
+~~~
+~~~
 sudo iptables -A OUTPUT -o eth0 -p icmp -m comment --comment "icmp" -j ACCEPT
+~~~
+~~~
 sudo iptables -A OUTPUT -d 192.168.1.0/24 -o eth0 -m comment --comment "lan" -j ACCEPT
+~~~
+~~~
 sudo iptables -A OUTPUT -o eth0 -p udp -m udp --dport 1198 -m comment --comment "openvpn" -j ACCEPT
+~~~
+~~~
 sudo iptables -A OUTPUT -o eth0 -p tcp -m tcp --sport 22 -m comment --comment "ssh" -j ACCEPT
+~~~
+~~~
 sudo iptables -A OUTPUT -o eth0 -p udp -m udp --dport 123 -m comment --comment "ntp" -j ACCEPT
+~~~
+~~~
 sudo iptables -A OUTPUT -o eth0 -p udp -m udp --dport 53 -m comment --comment "dns" -j ACCEPT
+~~~
+~~~
 sudo iptables -A OUTPUT -o eth0 -p tcp -m tcp --dport 53 -m comment --comment "dns" -j ACCEPT
+~~~
+~~~
 sudo iptables -A OUTPUT -o eth0 -j DROP
 ~~~
 
@@ -163,6 +187,8 @@ You can check the status and logs of the VPN client with:
 
 ~~~
 sudo systemctl status openvpn@Sweden
+~~~
+~~~
 sudo journalctl -u openvpn@Sweden
 ~~~
 
