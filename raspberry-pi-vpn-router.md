@@ -12,7 +12,8 @@ Download and uncompress the PIA OpenVPN profiles:
 
 ~~~
 wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
-sudo apt-get install unzip
+~~~
+~~~
 unzip openvpn.zip -d openvpn
 ~~~
 
