@@ -1,4 +1,7 @@
-Skapa filen port_forward.sh
+#Script that opens a port for Transmission throu the VPN#
+
+**Create the file port_forward.sh**
+   * You have to be root to do this
 
 ~~~
 sudo -i
@@ -7,7 +10,7 @@ sudo -i
 nano port_forward.sh
 ~~~
 
-Klistra in detta
+**Paste the code from below into the scriptfile**
 
 ~~~
 #!/bin/sh
@@ -218,17 +221,31 @@ service transmission-daemon restart
 exit 0
 ~~~
 
-Lägg till automatisk körning en gång i timmen
-Se till att fortfarande vara root med sudo -i
+**Now we will add the script to a cron job that will update the port every hour.**
 ~~~
 crontab -e
 ~~~
 ~~~
 */59 * * * * /root/port_forward.sh --file /etc/openvpn/login >> /root/vpn_port.log
 ~~~
-Gå ur root läget med 'exit'
 
-Kör
+Exit root with `exit`
+
+**Run**
 ~~~
-sudo update-rc.d transmission-daemon-reload defaults
+sudo chmod 777 /root/port_forward.sh
+~~~
+**To make the script runable**
+
+**Test the script with**
+~~~
+sudo /root/port_forward.sh --file /etc/openvpn/login
+~~~
+
+**If working you should get something like this**
+~~~
+Using VPN connection on interface tun0...
+VPN Internal IP = 10.28.10.6
+VPN External IP:Port = x.xxx.x.xx:37951
+localhost:9091/transmission/rpc/ responded: "success"
 ~~~
