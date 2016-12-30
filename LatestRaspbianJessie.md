@@ -20,22 +20,28 @@
 ~~~
 sudo raspi-config
 ~~~
-  1. Expand Filesystem
-  2. Change User Password
-  3. Boot Options
-     B1 Desktop Autologin
-     B3 Splash Screen - Disable
-  4. Insernationalisation Options
-     I1 Change Locale
-     I2 Change Timezone
-     I3 Change Keyboard Layout
-     I4 Change Wi-fi Country
-  5. Advanced Options
-     A1 Overscan - No
-     A2 Hostname - SeedBox
-     A3 Memory Split - 16
-     A5 VNC - Yes
-  6. Finish - Reboot
+
+1. Expand Filesystem
+
+2. Change User Password
+
+3. Boot Options
+B1 Desktop Autologin
+B3 Splash Screen - Disable
+
+4. Internationalisation Options
+I1 Change Locale
+I2 Change Timezone
+I3 Change Keyboard Layout
+I4 Change Wi-fi Country
+
+5. Advanced Options
+A1 Overscan - No
+A2 Hostname - SeedBox
+A3 Memory Split - 16
+A5 VNC - Yes
+
+6. Finish - Reboot
 
 Reconnect to your Raspberry Pi with Putty
     Logi as: pi
