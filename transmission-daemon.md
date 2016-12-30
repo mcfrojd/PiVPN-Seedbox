@@ -127,6 +127,7 @@ NAME=transmission-daemon-reload
 sleep 10
 service transmission-daemon reload
 ~~~
+   * Close and save with **ctrl-x** - **Y** - **enter**
 ~~~
 sudo chmod 755 /etc/init.d/transmission-daemon-reload
 ~~~
