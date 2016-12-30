@@ -102,6 +102,8 @@ sudo nano /var/lib/transmission-daemon/.config/transmission-daemon/settings.json
 sudo /etc/init.d/transmission-daemon start
 ~~~
 
+**Test transmission from your browser on your computer http://ipnumber.to.your.pi:9091**
 
+**If you see the webinterface of transmission now the install worked**
 
 ###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 5.###
