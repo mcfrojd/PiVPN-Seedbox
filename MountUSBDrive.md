@@ -23,9 +23,6 @@ sudo mkdir /mnt/SeedBox
 sudo mount /dev/sda1 /mnt/SeedBox
 ~~~
 ~~~
-   * behövs detta? sudo chown pi:pi /mnt/SeedBox
-~~~
-~~~
 sudo nano /etc/fstab
 ~~~
 ~~~
