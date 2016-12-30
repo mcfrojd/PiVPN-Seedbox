@@ -13,7 +13,7 @@ USER=debian-transmission
 ~~~
    * to
 ~~~
-USER=pi
+USER=root
 ~~~
    * Close and save with **ctrl-x** - **Y** - **enter**
 ~~~
