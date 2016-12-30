@@ -1,4 +1,4 @@
-#Create a DuckDNS dynamic ip adress and connect it to your Pi.#
+##Create a DuckDNS dynamic ip adress and connect it to your Pi.##
 
 **Create a free account at https://www.duckdns.org**
 **Add a personal domain XXXXXX.duckdns.org**
