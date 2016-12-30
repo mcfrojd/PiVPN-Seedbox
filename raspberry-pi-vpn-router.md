@@ -182,8 +182,8 @@ sudo netfilter-persistent save
 ~~~
 
    * **If you use the Raspberry pi GUI (direct with monitor, mouse and keyboard. Or with VNC)**
-   * **Start the pi webbrowser, go to http://canihazip.com and compare your ip number on the pi with your ip number on your computer**
-   * **Open http://localhost:9091 on the pi (http://ip.number.of.your.pi:9091 if you tyr on your computer) and you should se the Transmission GUI**
+   * **Start the pi webbrowser, go to http://canihazip.com and compare your ip number on the pi with your ip number on your computer. The Pi ip number should be diffrent now that it connects to internet throu secure VPN**
+   * **Open http://localhost:9091 on the pi (http://ip.number.of.your.pi:9091 if you try on your computer) and you should se the Transmission GUI**
 
 ---
 
