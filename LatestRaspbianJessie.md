@@ -46,3 +46,5 @@ sudo raspi-config
 ###Reconnect to your Raspberry Pi with Putty###
    * Logi as: pi
    * Username: yournewpassword
+
+###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 2.
