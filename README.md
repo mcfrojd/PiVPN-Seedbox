@@ -44,3 +44,6 @@
 
 **For DuckDns** - [Getting Started with Home Assistant, again!](https://youtu.be/G8XWsXlfGFQ?t=761)
 
+**For DNS Leak** - [HOW TO FIX OPENVPN DNS LEAK IN LINUX](http://www.ubuntubuzz.com/2015/09/how-to-fix-openvpn-dns-leak-in-linux.html)
+
+**For open port to GUI** - ["STILL LOOKING"](http://#)
