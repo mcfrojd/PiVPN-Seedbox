@@ -1,3 +1,5 @@
+*This guide is not complete yet! it's missing the part where you have to open port 9091 throu the VPN*
+
 ##Create a DuckDNS dynamic ip adress and connect it to your Pi.##
 
 **Create a free account at https://www.duckdns.org**
@@ -26,5 +28,9 @@ echo url="https://www.duckdns.org/update?domains=XXXXX&token=XXXXXXXX-XXXX-XXXX-
 
 **Run** `./duck.sh`
 
-**Run** `cat duck.log`**, should return OK sudo service cron start**
+**Run** `cat duck.log`**, should return OK. Then run** `sudo service cron start`**to finalice she DuckDNS setup**
+
+###Open port 9091 throu VPN###
+
+**This part is not finish yet**
 
