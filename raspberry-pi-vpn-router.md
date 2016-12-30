@@ -111,7 +111,7 @@ echo -e '\n#Enable IP Routing\nnet.ipv4.ip_forward = 1' | sudo tee -a /etc/sysct
 sudo sysctl -p
 ~~~
 
-**Setup NAT fron the local LAN down the VPN tunnel:**
+**Setup NAT from the local LAN down the VPN tunnel:**
 
 ~~~
 sudo iptables -t nat -A POSTROUTING -o tun0 -j MASQUERADE
