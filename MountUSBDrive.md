@@ -14,7 +14,25 @@ sudo apt-get install ntfs-3g
 lsblk
 ~~~
    * Check for the mountpoint that matches your disk / drive (usually "sda1")
-   * Notice that the drive is automounted at /media/pi/SeedBox
+   * Notice that the drive might be automounted at /media/pi/SeedBox, if so unmount first with `sudo umount /media/pi/SeedBox`
+
+~~~
+sudo mkdir /mnt/SeedBox
+~~~
+~~~
+sudo mount /dev/sda1 /mnt/SeedBox
+~~~
+~~~
+   * behövs detta? sudo chown pi:pi /mnt/SeedBox
+~~~
+~~~
+sudo nano /etc/fstab
+~~~
+~~~
+/dev/sda1       /mnt/SeedBox    ntfs    defaults        0       0
+~~~
+   * Observe, it's not spaces, it's TAB between the settings above
+   * Close and save with **ctrl-x** - **Y** - **enter**
 
 **4 - Create the folders for Transmission**
 ~~~
