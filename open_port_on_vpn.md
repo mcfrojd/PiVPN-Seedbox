@@ -226,7 +226,7 @@ exit 0
 crontab -e
 ~~~
 ~~~
-*/59 * * * * /root/port_forward.sh --file /etc/openvpn/login >> /root/vpn_port.log
+*/59 * * * * /root/port_forward.sh --file /etc/openvpn/login
 ~~~
 
 Exit root with `exit`
@@ -245,3 +245,5 @@ VPN Internal IP = 10.28.10.6
 VPN External IP:Port = x.xxx.x.xx:37951
 localhost:9091/transmission/rpc/ responded: "success"
 ~~~
+
+**Reboot with `sudo reboot` and now you should have a Secure VPN SeedBox**
