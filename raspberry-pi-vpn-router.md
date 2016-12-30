@@ -1,4 +1,4 @@
-#Step 4 - Raspberry Pi VPN Router
+#Step 5 - Raspberry Pi VPN Router
 
 ###Setup VPN Client###
 
@@ -192,4 +192,4 @@ sudo systemctl status openvpn@Sweden
 sudo journalctl -u openvpn@Sweden
 ~~~
 
-###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 5.###
+###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 6.###
