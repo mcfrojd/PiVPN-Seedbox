@@ -35,7 +35,7 @@ sudo nano /var/lib/transmission-daemon/.config/transmission-daemon/settings.json
     "blocklist-url": "http://www.example.com/blocklist",
     "cache-size-mb": 4,
     "dht-enabled": true,
-    "download-dir": "/media/pi/SeedBox/complete",
+    "download-dir": "/mnt/SeedBox/complete",
     "download-limit": 100,
     "download-limit-enabled": 0,
     "download-queue-enabled": true,
@@ -43,7 +43,7 @@ sudo nano /var/lib/transmission-daemon/.config/transmission-daemon/settings.json
     "encryption": 1,
     "idle-seeding-limit": 30,
     "idle-seeding-limit-enabled": false,
-    "incomplete-dir": "/media/pi/SeedBox/incomplete",
+    "incomplete-dir": "/mnt/SeedBox/incomplete",
     "incomplete-dir-enabled": true,
     "lpd-enabled": false,
     "max-peers-global": 200,
@@ -91,7 +91,7 @@ sudo nano /var/lib/transmission-daemon/.config/transmission-daemon/settings.json
     "upload-limit-enabled": 0,
     "upload-slots-per-torrent": 14,
     "utp-enabled": true,
-    "watch-dir": "/media/pi/SeedBox/autostart", 
+    "watch-dir": "/mnt/SeedBox/autostart", 
     "watch-dir-enabled": true
 }
 ~~~
