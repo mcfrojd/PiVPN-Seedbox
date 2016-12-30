@@ -18,7 +18,7 @@
    * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/share_folders_with_samba.md)
 
 **4 - Install Transmission and all settings.**
-   * [Link to guide]()
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/transmission-daemon.md)
 
 **5 - Install OpenVPN and add the settings for Private Internet Access. Check ip to verify.**
    * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/raspberry-pi-vpn-router.md)
