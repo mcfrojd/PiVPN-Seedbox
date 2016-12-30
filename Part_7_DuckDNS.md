@@ -17,7 +17,7 @@ sudo nano duck.sh
 echo url="https://www.duckdns.org/update?domains=XXXXX&token=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&ip=" | curl -k -o ~/duckdns/duck.log -K -
 ~~~
 
-**Run** `sudo chmod 700 duck.sh` **to set permissions to the script**
+**Run** `sudo chmod 777 duck.sh` **to set permissions to the script**
 
 **Run** `crontab -e` **, select the nano option paste this line at the bottom of the script**
 ~~~
