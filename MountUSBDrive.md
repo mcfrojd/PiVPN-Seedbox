@@ -26,7 +26,7 @@ sudo mkdir /media/pi/SeedBox/incomplete
 ~~~
 sudo mkdir /media/pi/SeedBox/autostart
 ~~~
-**5 - Set Permissions on the folders *(check if this step is nessecery)**
+**5 - Set Permissions on the folders** *(check if this step is nessecery)*
 ~~~
 sudo chmod 744 /media/pi/SeedBox/complete
 ~~~
