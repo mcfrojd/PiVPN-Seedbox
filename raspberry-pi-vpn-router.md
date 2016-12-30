@@ -181,7 +181,11 @@ sudo iptables -A OUTPUT -o eth0 -j DROP
 sudo netfilter-persistent save
 ~~~
 
-**If you find traffic on your other systems stops, then look on the Pi to see if the VPN is up or not.**
+**If you use the Raspberry pi GUI (direct with monitor, mouse and keyboard. Or with VNC)
+**Start the pi webbrowser, go to http://canihazip.com and compare your ip number on the pi with your ip number on your computer**
+**Open http://localhost:9091 on the pi (http://ip.number.of.your.pi:9091 if you tyr on your computer) and you should se the Transmission GUI**
+
+---
 
 **You can check the status and logs of the VPN client with:**
 
