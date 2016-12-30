@@ -128,11 +128,17 @@ sleep 10
 service transmission-daemon reload
 ~~~
    * Close and save with **ctrl-x** - **Y** - **enter**
+
+**Change permissions to the file so it can be executed**
 ~~~
 sudo chmod 755 /etc/init.d/transmission-daemon-reload
 ~~~
+
+**Make the script run at startup**
 ~~~
 sudo update-rc.d transmission-daemon-reload defaults
 ~~~
+
+**Reboot the pi and check if transmission starts automaticly**
 
 ###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 5.###
