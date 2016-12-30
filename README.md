@@ -3,8 +3,8 @@
 **1 - Latest raspberry Jessie. Local settings + update & upgrade.**
    * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/LatestRaspbianJessie.md)
 
-**2 - Mount usb disk / drive. Format drive "SeedBox", Make folder Torrents in the root and Complete, Incomplete & Autostart inside Torrents folder. chmod the folders.**
-   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/edit/master/MountUSBDrive.md)
+**2 - Prepare usb disk / drive and mount it in your Raspberry Pi.**
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/MountUSBDrive.md)
 
 **3 - Samba sharing of the mounted seedbox folder "SeedBox"**
    * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/share_folders_with_samba.md)
