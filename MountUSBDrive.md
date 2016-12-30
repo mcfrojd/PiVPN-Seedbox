@@ -1,6 +1,7 @@
 #Mount the USB Drive / Disk#
 
 ####1 - Install ntfs drivers####
+**1 - Install ntfs drivers**
 ~~~
 sudo apt-get install ntfs-3g
 ~~~
