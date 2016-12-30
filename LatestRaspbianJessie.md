@@ -13,8 +13,8 @@
 6. Use [FING](https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en_GB) to find your Raspberry Pi ipadress in your network.
 
 7. Login to your Raspberry Pi with [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
-    Logi as: pi
-    Username: raspberry
+   * Logi as: pi
+   * Username: raspberry
 
 8. Set up your Pi.
 ~~~
@@ -26,23 +26,23 @@ sudo raspi-config
 2. Change User Password
 
 3. Boot Options
-B1 Desktop Autologin
-B3 Splash Screen - Disable
+   * B1 Desktop Autologin
+   * B3 Splash Screen - Disable
 
 4. Internationalisation Options
-I1 Change Locale
-I2 Change Timezone
-I3 Change Keyboard Layout
-I4 Change Wi-fi Country
+   * I1 Change Locale
+   * I2 Change Timezone
+   * I3 Change Keyboard Layout
+   * I4 Change Wi-fi Country
 
 5. Advanced Options
-A1 Overscan - No
-A2 Hostname - SeedBox
-A3 Memory Split - 16
-A5 VNC - Yes
+   * A1 Overscan - No
+   * A2 Hostname - SeedBox
+   * A3 Memory Split - 16
+   * A5 VNC - Yes
 
 6. Finish - Reboot
 
 Reconnect to your Raspberry Pi with Putty
-    Logi as: pi
-    Username: yournewpassword
+   * Logi as: pi
+   * Username: yournewpassword
