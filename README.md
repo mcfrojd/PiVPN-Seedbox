@@ -1,7 +1,5 @@
 #PiVPN-Seedbox#
 
----
-
 **1 - Latest raspberry Jessie. Local settings + update & upgrade.**
    * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/LatestRaspbianJessie.md)
 
