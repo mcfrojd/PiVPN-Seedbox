@@ -106,4 +106,32 @@ sudo /etc/init.d/transmission-daemon start
 
 **If you see the webinterface of transmission now the install worked**
 
+~~~
+sudo nano /etc/init.d/transmission-daemon-reload
+~~~
+   * Paste the following into that file:
+~~~
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides: transmission-daemon-reload
+# Required-Start: $all
+# Required-Stop: 
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: Reload the transmission-daemon
+# Description: Reload the transmission-daemon at boot.
+### END INIT INFO
+
+NAME=transmission-daemon-reload
+
+sleep 10
+service transmission-daemon reload
+~~~
+~~~
+sudo chmod 755 /etc/init.d/transmission-daemon-reload
+~~~
+~~~
+sudo update-rc.d transmission-daemon-reload defaults
+~~~
+
 ###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 5.###
