@@ -43,6 +43,6 @@ sudo raspi-config
 
 6. Finish - Reboot
 
-Reconnect to your Raspberry Pi with Putty
+###Reconnect to your Raspberry Pi with Putty###
    * Logi as: pi
    * Username: yournewpassword
