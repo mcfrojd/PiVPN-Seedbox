@@ -231,11 +231,7 @@ crontab -e
 
 Exit root with `exit`
 
-**Run**
-~~~
-sudo chmod 777 /root/port_forward.sh
-~~~
-**To make the script runable**
+**Run** `sudo chmod 777 /root/port_forward.sh` **To make the script runable**
 
 **Test the script with**
 ~~~
