@@ -33,23 +33,23 @@ sudo nano /etc/fstab
 
 **4 - Create the folders for Transmission**
 ~~~
-sudo mkdir /media/pi/SeedBox/complete
+sudo mkdir /mnt/SeedBox/complete
 ~~~
 ~~~
-sudo mkdir /media/pi/SeedBox/incomplete
+sudo mkdir /mnt/SeedBox/incomplete
 ~~~
 ~~~
-sudo mkdir /media/pi/SeedBox/autostart
+sudo mkdir /mnt/SeedBox/autostart
 ~~~
 **5 - Set Permissions on the folders** *(check if this step is nessecery)*
 ~~~
-sudo chmod 744 /media/pi/SeedBox/complete
+sudo chmod 744 /mnt/SeedBox/complete
 ~~~
 ~~~
-sudo chmod 744 /media/pi/SeedBox/incomplete
+sudo chmod 744 /mnt/SeedBox/incomplete
 ~~~
 ~~~
-sudo chmod 744 /media/pi/SeedBox/autostart
+sudo chmod 744 /mnt/SeedBox/autostart
 ~~~
 
 ###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 3.###
