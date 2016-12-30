@@ -42,7 +42,26 @@ sudo raspi-config
    * A5 VNC - Yes
 
 **6 - Finish - Reboot**
+~~~
+sudo reboot
+~~~
 
+###Reconnect to your Raspberry Pi with Putty###
+   * Logi as: pi
+   * Username: yournewpassword
+
+**1 - Update your Pi.**
+~~~
+sudo apt-get update
+~~~
+~~~
+sudo apt-get upgrade
+~~~
+
+**2 - Reboot**
+~~~
+sudo reboot
+~~~
 ###Reconnect to your Raspberry Pi with Putty###
    * Logi as: pi
    * Username: yournewpassword
