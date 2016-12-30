@@ -30,10 +30,12 @@
    * [Link to guide](https://#)
 
 ##Sources##
+**These sources have been much help creating this guide**
 
 1. [Getting Started with Home Assistant, again!] (https://youtu.be/G8XWsXlfGFQ?t=555)
 2. [Add Transmission peer Blocklist to guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide/issues/91)
 3. [Port Forwarding Without The Application (Advanced Users)](https://www.privateinternetaccess.com/forum/discussion/180/port-forwarding-without-the-application-advanced-users/p13)
 4. [Raspberry Pi Seedbox (w/ Transmission WebUI) | Linux Tutorial](https://www.youtube.com/watch?v=flhGmgbAqZA&t=346s)
+5. [Raspberry Pi VPN Router](https://gist.github.com/superjamie/ac55b6d2c080582a3e64)
 
 
