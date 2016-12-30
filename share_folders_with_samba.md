@@ -1,5 +1,6 @@
-#Installera SAMBA#
+#Install SAMBA#
 
+** We are going to install SAMBA to be able to access the Raspberry Pi's mounted drive**
 ~~~
 sudo apt-get install samba -o Acquire::ForceIPv4=true
 ~~~
@@ -51,3 +52,4 @@ sudo service smbd restart
 **Now you can look at your computer, refresh the network and the share "SEEDBOX" should appear**
    * Login to the share with your credentials from above.
 
+###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 4.###
