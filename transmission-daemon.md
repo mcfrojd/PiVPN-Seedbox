@@ -19,37 +19,89 @@ USER=pi
 ~~~
 sudo nano /var/lib/transmission-daemon/.config/transmission-daemon/settings.json
 ~~~
-   * Change these values: **(observe the ',' at the end of "utp-enabled": true)**
+   * **ctrl-k to delete all original lines, the paste these settings instead**
 ~~~
-"download-dir": "/media/pi/SeedBox/complete",
-"incomplete-dir": "/media/pi/SeedBox/incomplete",
-"incomplete-dir-enabled": true,
-"port-forwarding-enabled": true,
-"rpc-authentication-required": false,
-"rpc-password": "",
-"rpc-username": "",
-"rpc-whitelist-enabled": false,
-"trash-original-torrent-files": true,
-"umask": 2,
-"utp-enabled": true,
+{
+    "alt-speed-down": 50,
+    "alt-speed-enabled": false,
+    "alt-speed-time-begin": 540,
+    "alt-speed-time-day": 127,
+    "alt-speed-time-enabled": false,
+    "alt-speed-time-end": 1020,
+    "alt-speed-up": 50,
+    "bind-address-ipv4": "0.0.0.0",
+    "bind-address-ipv6": "::",
+    "blocklist-enabled": false,
+    "blocklist-url": "http://www.example.com/blocklist",
+    "cache-size-mb": 4,
+    "dht-enabled": true,
+    "download-dir": "/media/pi/SeedBox/complete",
+    "download-limit": 100,
+    "download-limit-enabled": 0,
+    "download-queue-enabled": true,
+    "download-queue-size": 5,
+    "encryption": 1,
+    "idle-seeding-limit": 30,
+    "idle-seeding-limit-enabled": false,
+    "incomplete-dir": "/media/pi/SeedBox/incomplete",
+    "incomplete-dir-enabled": true,
+    "lpd-enabled": false,
+    "max-peers-global": 200,
+    "message-level": 1,
+    "peer-congestion-algorithm": "",
+    "peer-id-ttl-hours": 6,
+    "peer-limit-global": 200,
+    "peer-limit-per-torrent": 50,
+    "peer-port": 51413,
+    "peer-port-random-high": 65535,
+    "peer-port-random-low": 49152,
+    "peer-port-random-on-start": false,
+    "peer-socket-tos": "default",
+    "pex-enabled": true,
+    "port-forwarding-enabled": true,
+    "preallocation": 1,
+    "prefetch-enabled": 1,
+    "queue-stalled-enabled": true,
+    "queue-stalled-minutes": 30,
+    "ratio-limit": 2,
+    "ratio-limit-enabled": false,
+    "rename-partial-files": true,
+    "rpc-authentication-required": false,
+    "rpc-bind-address": "0.0.0.0",
+    "rpc-enabled": true,
+    "rpc-password": "",
+    "rpc-port": 9091,
+    "rpc-url": "/transmission/",
+    "rpc-username": "",
+    "rpc-whitelist": "127.0.0.1",
+    "rpc-whitelist-enabled": false,
+    "scrape-paused-torrents-enabled": true,
+    "script-torrent-done-enabled": false,
+    "script-torrent-done-filename": "",
+    "seed-queue-enabled": false,
+    "seed-queue-size": 10,
+    "speed-limit-down": 100,
+    "speed-limit-down-enabled": false,
+    "speed-limit-up": 100,
+    "speed-limit-up-enabled": false,
+    "start-added-torrents": true,
+    "trash-original-torrent-files": true,
+    "umask": 2,
+    "upload-limit": 100,
+    "upload-limit-enabled": 0,
+    "upload-slots-per-torrent": 14,
+    "utp-enabled": true,
+    "watch-dir": "/media/pi/SeedBox/autostart", 
+    "watch-dir-enabled": true
+}
 ~~~
-   * And add these values:
+   * Close and save with **ctrl-x** - **Y** - **enter**
+
+**Start the transmission-daemon**
 ~~~
-"watch-dir": "/media/pi/SeedBox/autostart", 
-"watch-dir-enabled": true
+sudo /etc/init.d/transmission-daemon start
 ~~~
-   * On the line after "utp-enabled": true,
 
 
-**2 - Use [SD Card Formatter 4.0 for SD/SDHC/SDXC](https://www.sdcard.org/downloads/formatter_4/index.html) to format your MicroSD card.**
-
-**7 - Login to your Raspberry Pi with [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)**
-   * Logi as: pi
-   * Username: raspberry
-
-##Set up your Pi.##
-~~~
-sudo raspi-config
-~~~
 
 ###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 5.###
