@@ -1,4 +1,4 @@
-#Mount the USB Drive / Disk#
+#Step 2 - Mount the USB Drive / Disk#
 
 **1 - Install ntfs drivers**
 ~~~
