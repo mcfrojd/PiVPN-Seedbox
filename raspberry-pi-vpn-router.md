@@ -192,12 +192,4 @@ sudo systemctl status openvpn@Sweden
 sudo journalctl -u openvpn@Sweden
 ~~~
 
-###Optional: DNS on the Pi##
-
-**To ensure all your DNS goes through the VPN, you could install `dnsmasq` on the Pi to accept DNS requests from the local LAN and forward requests to external DNS servers.**
-
-~~~
-sudo apt-get install dnsmasq
-~~~
-
 ###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 5.###
