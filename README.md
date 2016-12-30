@@ -1,5 +1,13 @@
 #PiVPN-Seedbox#
 
+##The hardware and software used in this guide is:##
+   * Raspberry Pi 3
+   * MicroSD: SanDisk Ultra MicroSDHC UHS-I 8gb 
+   * Raspbian Jessie with Pixel. Version: November 2016
+   * USB Drive: OCZ Vertex 2 Sata II 2.5" SSD drive in a portable USB enclosure (no extra power needed)
+
+##Lets start the guide##
+
 **1 - Latest raspberry Jessie. Local settings + update & upgrade.**
    * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/LatestRaspbianJessie.md)
 
