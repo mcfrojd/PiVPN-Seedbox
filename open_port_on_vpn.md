@@ -249,4 +249,4 @@ VPN External IP:Port = x.xxx.x.xx:37951
 localhost:9091/transmission/rpc/ responded: "success"
 ~~~
 
-**Reboot with `sudo reboot` and now you should have a Secure VPN SeedBox**
+**Reboot with** `sudo reboot` **and now you should have a Secure VPN SeedBox**
