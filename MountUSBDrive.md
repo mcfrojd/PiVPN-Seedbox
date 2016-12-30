@@ -37,5 +37,4 @@ sudo chmod 744 /media/pi/SeedBox/incomplete
 sudo chmod 744 /media/pi/SeedBox/autostart
 ~~~
 
-## Return 
-
+###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 3.###
