@@ -24,8 +24,6 @@
 **8 - DynDNS to get ip to seedbox?**
    * [Link to guide]()
 
----
-
 ##Sources##
 
 **1 - Följ guiden [raspberry-pi-vpn-router.md](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/raspberry-pi-vpn-router.md) för att sätta upp en fungerande VPN anslutning till PrivateInternetAccess (PIA)**
