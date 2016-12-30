@@ -9,40 +9,31 @@
 ##Lets start the guide##
 
 **1 - Latest raspberry Jessie. Local settings + update & upgrade.**
-   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/LatestRaspbianJessie.md)
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/Part_1_LatestRaspbianJessie.md)
 
 **2 - Prepare usb disk / drive and mount it in your Raspberry Pi.**
-   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/MountUSBDrive.md)
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/Part_2_MountUSBDrive.md)
 
 **3 - Samba sharing of the mounted seedbox folder "SeedBox"**
-   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/share_folders_with_samba.md)
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/Part_3_share_folders_with_samba.md)
 
 **4 - Install Transmission and all settings.**
-   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/transmission-daemon.md)
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/Part_4_transmission-daemon.md)
 
 **5 - Install OpenVPN and add the settings for Private Internet Access. Check ip to verify.**
-   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/raspberry-pi-vpn-router.md)
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/Part_5_raspberry-pi-vpn-router.md)
 
 **6 - Open transmission port throu VPN**
-   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/open_port_on_vpn.md)
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/Part_6_open_port_on_vpn.md)
 
-**7 - Autostart and restart to make trasmission start and keep active.**
-   * [Link to guide]()
-
-**8 - DynDNS to get ip to seedbox?**
-   * [Link to guide]()
+*7 - DynDNS to get ip to seedbox?*
+   * [Link to guide](https://#)
 
 ##Sources##
 
-**1 - Följ guiden [raspberry-pi-vpn-router.md](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/raspberry-pi-vpn-router.md) för att sätta upp en fungerande VPN anslutning till PrivateInternetAccess (PIA)**
+1. [Getting Started with Home Assistant, again!] (https://youtu.be/G8XWsXlfGFQ?t=555)
+2. [Add Transmission peer Blocklist to guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide/issues/91)
+3. [Port Forwarding Without The Application (Advanced Users)](https://www.privateinternetaccess.com/forum/discussion/180/port-forwarding-without-the-application-advanced-users/p13)
+4. [Raspberry Pi Seedbox (w/ Transmission WebUI) | Linux Tutorial](https://www.youtube.com/watch?v=flhGmgbAqZA&t=346s)
 
-**2 - Följ guiden [Raspberry Pi Seedbox (w/ Transmission WebUI) | Linux Tutorial](https://www.youtube.com/watch?v=flhGmgbAqZA&t=346s) för att sätta upp Transmission**
-
-**3 - Följ guiden [open_port_on_vpn.md](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/open_port_on_vpn) för att öppna en port på VPN anslutnigen och rapportera denna till transmission.**
-
-**4 - Följ guiden [How2SetUp a Raspberry Pi Windows NAS storage server](http://www.simonthepiman.com/how_to_setup_windows_file_server.php) från punkt 6 för att dela ut mappar med samba**
-
-Källor
-
-https://www.privateinternetaccess.com/forum/discussion/180/port-forwarding-without-the-application-advanced-users/p13
 
