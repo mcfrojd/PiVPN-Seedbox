@@ -21,7 +21,7 @@ remote announce =
 remote browse sync =
 
 [SEEDBOX]
-path = /media/pi/SeedBox
+path = /mnt/SeedBox
 comment = No comment
 browsable = yes
 read only = no
