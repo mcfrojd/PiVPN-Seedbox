@@ -1,11 +1,14 @@
 #Script that opens a port for Transmission throu the VPN#
 
-**Create the file port_forward.sh**
+**Create a script file called port_forward.sh**
    * You have to be root to do this
 
+**Become root**
 ~~~
 sudo -i
 ~~~
+
+**Create the file**
 ~~~
 nano port_forward.sh
 ~~~
@@ -229,7 +232,7 @@ crontab -e
 */59 * * * * /root/port_forward.sh --file /etc/openvpn/login
 ~~~
 
-Exit root with `exit`
+**Exit root with `exit`**
 
 **Run** `sudo chmod 777 /root/port_forward.sh` **To make the script runable**
 
