@@ -1,6 +1,6 @@
 # Raspberry Pi VPN Router
 
-** Setup VPN Client
+**Setup VPN Client**
 
 Install the OpenVPN client:
 
@@ -64,7 +64,7 @@ auth-user-pass /etc/openvpn/login
 crl-verify /etc/openvpn/crl.rsa.2048.pem
 ~~~
 
-** Test VPN
+**Test VPN**
 
 At this point you should be able to test the VPN actually works:
 
@@ -91,13 +91,13 @@ Sat Oct 24 12:10:59 2015 Initialization Sequence Completed
 
 Exit this with **Ctrl+c**
 
-** Enable VPN at boot
+**Enable VPN at boot**
 
 ~~~
 sudo systemctl enable openvpn@Sweden
 ~~~
 
-** Setup Routing and NAT
+**Setup Routing and NAT**
 
 Enable IP Forwarding:
 
@@ -130,7 +130,7 @@ Make the rules apply at startup:
 sudo systemctl enable netfilter-persistent
 ~~~
 
-** VPN Kill Switch
+**VPN Kill Switch**
 
 This will block outbound traffic from the Pi so that only the VPN and related services are allowed.
 
@@ -165,7 +165,7 @@ sudo systemctl status openvpn@Sweden
 sudo journalctl -u openvpn@Sweden
 ~~~
 
-** Optional: DNS on the Pi
+**Optional: DNS on the Pi**
 
 To ensure all your DNS goes through the VPN, you could install `dnsmasq` on the Pi to accept DNS requests from the local LAN and forward requests to external DNS servers.
 
