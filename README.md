@@ -26,8 +26,8 @@
 **6 - Open transmission port throu VPN**
    * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/Part_6_open_port_on_vpn.md)
 
-*7 - DynDNS to get ip to seedbox?*
-   * [Link to guide](https://#)
+**7 - DuckDNS -  to get ip to seedbox?**
+   * [Link to guide](https://github.com/mcfrojd/PiVPN-Seedbox/blob/master/Part_7_DuckDNS.md)
 
 #Sources#
 ###These sources have been much help creating this guide###
@@ -41,4 +41,6 @@
 **For VPN setup (PIA)** - [Raspberry Pi VPN Router](https://gist.github.com/superjamie/ac55b6d2c080582a3e64)
 
 **For Transmission Blocklist** - [Add Transmission peer Blocklist to guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide/issues/91)
+
+**For DuckDns** - [Getting Started with Home Assistant, again!](https://youtu.be/G8XWsXlfGFQ?t=761)
 
