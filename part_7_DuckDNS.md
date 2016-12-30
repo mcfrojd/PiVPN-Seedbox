@@ -1,0 +1,8 @@
+
+
+
+~~~
+mkdir duckdns
+cd duckdns
+
+~~~
