@@ -19,3 +19,12 @@ echo url="https://www.duckdns.org/update?domains=XXXXX&token=XXXXXXXX-XXXX-XXXX-
 
 **Run** `sudo chmod 700 duck.sh` **to set permissions to the script**
 
+**Run** `crontab -e` **, select the nano option paste this line at the bottom of the script**
+~~~
+*/5 * * * * ~/duckdns/duck.sh >/dev/null 2>&1
+~~~
+
+**Run** `./duck.sh`
+
+**Run** `cat duck.log`**, should return OK sudo service cron start**
+
