@@ -51,3 +51,7 @@
 ---
 **Sites to check out**
 http://www.htpcguides.com/remote-access-transmission-torrent-behind-vpn-linux/
+
+http://www.htpcguides.com/install-sonarr-raspberry-pi-2-latest-stable-mono/
+
+
