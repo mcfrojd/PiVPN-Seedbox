@@ -47,3 +47,7 @@
 **For DNS Leak** - [HOW TO FIX OPENVPN DNS LEAK IN LINUX](http://www.ubuntubuzz.com/2015/09/how-to-fix-openvpn-dns-leak-in-linux.html)
 
 **For open port to GUI** - ["STILL LOOKING"](http://#)
+
+---
+**Sites to check out**
+http://www.htpcguides.com/remote-access-transmission-torrent-behind-vpn-linux/
