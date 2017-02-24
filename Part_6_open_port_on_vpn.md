@@ -219,7 +219,7 @@ fi
 
 port_forward_assignment
 print_vpn_information
-/usr/bin/transmission-remote -p $port
+/usr/bin/transmission-remote **-n 'username:password'** -p $port
 service transmission-daemon restart
 exit 0
 ~~~
