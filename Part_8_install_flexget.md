@@ -5,6 +5,9 @@ sudo pip install flexget
 ~~~
 **Add information to your config.yml**
 ~~~
+sudo nano .flexget/config.yml
+~~~
+~~~
 templates:
   series:
 #    download: /mnt/SeedBox/autostart
