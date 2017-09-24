@@ -51,5 +51,19 @@ sudo chmod 744 /mnt/SeedBox/incomplete
 ~~~
 sudo chmod 744 /mnt/SeedBox/autostart
 ~~~
+**6 - Mount your target NAS drive**
+~~
+sudo mkdir /mnt/linux
+~~~
+~~~
+sudo mkdir /mnt/linux/down
+~~~
+~~~
+sudo nano /etc/fstab
+~~~
+~~~
+/dev/sda1       /mnt/SeedBox    ntfs    defaults        0       0
+//192.168.111.3/linux/down /mnt/linux/down cifs username=your_username,password=your_password,workgroup=your_workgroup,users,auto,user_xattr 0 0
+~~~
 
 ###Return to the [Main guide](https://github.com/mcfrojd/PiVPN-Seedbox) and proceed with step 3.###
