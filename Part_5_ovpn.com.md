@@ -1,7 +1,3 @@
-ovpn.com
-https://www.ovpn.com/sv/guides/raspberry-pi-raspbian
-
-
 #Step 5 - Install ovpn.com
 
 ###Setup VPN Client###
