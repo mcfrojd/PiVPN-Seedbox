@@ -24,6 +24,7 @@ cd /tmp && wget https://files.ovpn.com/raspbian/ovpn-se.zip && unzip ovpn-se.zip
 ~~~
 echo "mcfrojd" >> /etc/openvpn/credentials
 ~~~
+~~~
 echo "ÄNDRA TILL DITT LÖSENORD" >> /etc/openvpn/credentials
 ~~~
 **6. Testa att starta OpenVPN för att se så att allt fungerar**
