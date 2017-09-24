@@ -62,7 +62,6 @@ sudo mkdir /mnt/linux/down
 sudo nano /etc/fstab
 ~~~
 ~~~
-/dev/sda1       /mnt/SeedBox    ntfs    defaults        0       0
 //192.168.111.3/linux/down /mnt/linux/down cifs username=your_username,password=your_password,workgroup=your_workgroup,users,auto,user_xattr 0 0
 ~~~
 
